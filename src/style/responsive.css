@@ -1,0 +1,370 @@
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.3s;
+    align-content: space-between;
+    flex-direction: row;
+  }
+  /* .navlist {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    box-shadow: none;
+  } */
+
+  .navlist {
+    display: none;
+  }
+
+  .navlist.mobile-menu {
+    display: flex ;
+  }
+
+  .navlist li a {
+    font-size: 1.5rem;
+  }
+
+  .logo img {
+    width: 50px;
+    /* margin-left: -28%; */
+  }
+
+  .logo {
+    margin-left: -10%;
+  }
+
+  .title {
+    font-size: 21px;
+    font-weight: 800;
+    color: #e8e130;
+    margin-left: 0;
+    font-family: "Anton", sans-serif;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .home {
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .dotted-text-container {
+    display: inline-flex;
+    width: 350px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    border: 3px dashed #111010;
+    background: #f13825;
+    text-align: center;
+  }
+
+  .dotted-text {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  nav {
+    padding: 0 0 0 0;
+  }
+
+  .navlist {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: #f13825;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .navlist li {
+    margin: 10px 0;
+  }
+
+  .navlist a {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 33%;
+    cursor: pointer;
+  }
+
+  .menu-img-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -53%;
+    padding-top: 10px;
+  }
+
+  .menu-image1, 
+  .menu-image2 {
+    width: 155px;
+    height: auto;
+    margin: 5%;
+  }
+
+  .btn-buynow {
+    width: 100px;
+    font-size: 14px;
+    height: 29px;
+    margin-left: -45%;
+  }
+
+  .image {
+    width: 250px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 294px;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      #e9e3d8 0%,
+      rgba(233, 227, 216, 0) 100%
+    );
+    margin-top: 15%;
+    margin-left: -40%;
+    -webkit-border-radius: 294px;
+    -moz-border-radius: 294px;
+    -ms-border-radius: 294px;
+    -o-border-radius: 294px;
+    margin-bottom: 5%;
+  }
+
+  .image .burger-image {
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  header {
+    padding: 10px 5%;
+  }
+
+  section {
+  }
+
+  .title {
+    font-size: 15px;
+  }
+
+  .home-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .dotted-text-container {
+    width: 80%;
+    margin-left: -13%;
+    border: 2px dashed #111010;
+    margin-top: 10%;
+  }
+
+  .dotted-text {
+    font-size: 13px;
+  }
+
+  .home-text {
+    padding-bottom: 0;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-text h1 {
+    font-size: 26px;
+    margin-left: -45%;
+    line-height: 0.1;
+    margin-top: 9%;
+  }
+
+  .root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+  }
+
+  .menu {
+    padding-bottom: 100px;
+    width: 593px;
+  }
+
+  
+  .menu-text-container {
+    margin-top: 20px;
+  }
+
+  .choose-eat {
+    font-size: 26px;
+    margin-left: -50%;
+  }
+
+  .paragraph-menu {
+    font-size: 12px;
+    margin-left: -50%;
+  }
+
+  .white {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .text-white{
+    font-size: 10px;
+    line-height: 1;
+    margin-top: -40%;
+    margin-left: -30%;
+  }
+
+  .ellipse-active {
+    width: 13px;
+    height: 13px;
+    margin-top: -10%;
+    margin-left: -5%;
+  }
+
+  .ellipse {
+    width: 13px;
+    height: 13px;
+    margin-top: -10%;
+  }
+
+  .ellipse-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -50%;
+  }
+
+  .title-text-white {
+    font-size: 15px;
+    margin-left: -30%;
+    margin-top: -40%;
+  }
+
+  .img-white {
+    width: 110px;
+    height: 110px;
+    margin-top: -30%;
+  }
+
+  .white-container {
+    width: 315px;
+    height: 195px;
+    margin-left: -54%;
+  }
+
+  /* Update the contact section for smaller screens */
+  .contact-container {
+    background-size: cover;
+    width: 315px;
+    height: 165px;
+    margin-left: -37%;
+    margin-bottom: 0;
+    margin-top: 20%;
+    /* padding-left: 20px;
+    padding-top: 20px;
+    margin-left: 0; */
+  }
+
+  .contact-img-container {
+    flex-direction: row;
+    margin-top: -10%;
+    margin-left: -10%;
+  }
+
+  .contact-image {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 0;
+  }
+
+  .contact {
+    min-height: 40vh;
+    background-color: #f13825;
+    height: auto;
+    width: 100%;
+  }
+
+  .contact-title {
+    font-size: 14px;
+    margin-top: -5%;
+  }
+
+  .contact-text-p {
+    font-size: 8px;
+    margin-left: 10px;
+    padding-left: 0;
+  }
+
+  .location-p {
+    text-align: center;
+    font-size: 8px;
+    margin-right: -60%;
+    margin-top: 10%;
+  }
+
+  .contact-logo {
+    margin-top: 20px;
+    margin-left: -65%;
+    margin-top: -6%;
+    justify-content: center;
+  }
+
+  .img-logo-contact {
+    width: 15px;
+    height: 10px;
+    margin-left: -20%;
+  }
+
+  .divider2-img {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -5px;
+    margin-top: 9px;
+  }
+
+  .divider-img {
+    margin-right: -5px;
+    margin-top: 9px;
+  }
+
+ 
+}
