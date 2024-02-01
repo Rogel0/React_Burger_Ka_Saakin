@@ -29,9 +29,9 @@ const Home = () => {
         </div>
         <div
           className="image"
-          data-aos="fade-left"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
+          // data-aos="fade-left"
+          // data-aos-offset="300"
+          // data-aos-easing="ease-in-sine"
         >
           <img
             src={BurgerHome}
